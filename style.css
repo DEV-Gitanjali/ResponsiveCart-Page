@@ -82,4 +82,59 @@ nav ul{
     gap: 2em; 
     display: flex; 
   }
+
+  .header-content {
+    background-image: url('images/Rectangle 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 376px;
+    width: 100%; 
+    max-width: 1440px;
+    margin: 0 auto;
+  
+    /* Flexbox for centering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Ensure the child element is properly positioned */
+  }
+  
+  .header_text {
+    text-align: center;
+  }
+
+  breadcrumb {
+    margin-top: 10px;
+  }
+  
+  .breadcrumb a {
+  color: #000000;
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: left;
+  
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb span {
+   font-family: Poppins;
+  text-align: left;
+  
+  }
+  
+  .header_text h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 10px;
+  text-align: left;
+  
+  }
   
