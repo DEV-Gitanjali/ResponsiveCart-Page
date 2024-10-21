@@ -9,6 +9,7 @@
   <title>Responsive_Cart_Page</title>
 </head>
 <body>
+    
 
    <!-- Header -->
    <header>
@@ -65,8 +66,57 @@
           </div> 
       </div>
   </div>     
-           
 </header>
+     
+
+
+      <!-- Cart Section -->
+      <section class="cart_container">
+        <!-- Cart Details Section -->
+    <div class="cart-details">
+        <table>
+          <!-- head section -->
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                    
+                </tr>
+            </thead>
+            <!-- body section -->
+            <tbody>
+                <tr>
+                    <td style="vertical-align: middle; display: flex; align-items: center; gap: 10px;">
+                        <img src="images/Asgaard sofa 5.png" alt="Asgaard Sofa">
+                        Asgaard sofa
+                    </td>
+                    <td>Rs. 250,000.00</td>
+                    <td class="quantity">
+                        <input type="number" value="1" min="1">
+                    </td>
+                    <td style="color: black;">Rs. 250,000.00</td>
+                    <td><span class="delete-icon"><i class="fa-solid fa-trash"></i></span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Cart Totals Section -->
+    <div class="cart-totals">
+        <h3>Cart Totals</h3>
+        <div class="totals">
+            <span style="  font-family: Poppins;  font-size: 14px;">Subtotal</span>
+            <span class="price">Rs. 250,000.00</span>
+        </div>
+        <div class="totals">
+            <span style="font-family: Poppins;  font-size: 14px;">Total</span>
+            <span class="total-price">Rs. 250,000.00</span>
+        </div>
+        <button>Check Out</button>
+    </div>
+      </section> 
 
 
 
