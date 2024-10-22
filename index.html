@@ -85,33 +85,45 @@
                     
                 </tr>
             </thead>
+          </table>
             <!-- body section -->
-            <tbody>
-                <tr>
-                    <td style="vertical-align: middle; display: flex; align-items: center; gap: 10px;">
-                        <img src="images/Asgaard sofa 5.png" alt="Asgaard Sofa">
-                        Asgaard sofa
-                    </td>
-                    <td>Rs. 250,000.00</td>
-                    <td class="quantity">
-                        <input type="number" value="1" min="1">
-                    </td>
-                    <td style="color: black;">Rs. 250,000.00</td>
-                    <td><span class="delete-icon"><i class="fa-solid fa-trash"></i></span></td>
-                </tr>
-            </tbody>
-        </table>
+          
+            <div class="cart-item">
+              <div class="item-image">
+                <img src="images/Asgaard sofa 5.png" alt="Asgaard sofa">
+              </div>
+              <div class="item-details">
+                <p class="item-name">Asgaard sofa</p>
+              </div>
+              <div class="item-price">
+                <p class="item-price">Rs. 250,000.00</p>
+              </div>
+
+              <div class="item-quantity">
+                <input type="number" value="1" min="1">
+              </div>
+              <div class="item-total-price">
+                Rs. 250,000.00
+              </div>
+              <div class="item-remove">
+                <button>
+                  <i class="fa-sharp fa-solid fa-trash"></i>
+                </button>
+              </div>
+            </div>
+            
+          
     </div>
 
     <!-- Cart Totals Section -->
     <div class="cart-totals">
         <h3>Cart Totals</h3>
         <div class="totals">
-            <span style="  font-family: Poppins;  font-size: 14px;">Subtotal</span>
+            <span style="  font-family: Poppins;  font-size: 14px; padding-top: 20px;">Subtotal</span>
             <span class="price">Rs. 250,000.00</span>
         </div>
         <div class="totals">
-            <span style="font-family: Poppins;  font-size: 14px;">Total</span>
+            <span style="font-family: Poppins;  font-size: 14px; padding-top: 20px;">Total</span>
             <span class="total-price">Rs. 250,000.00</span>
         </div>
         <button>Check Out</button>
@@ -131,7 +143,7 @@
                 color: #242424;
 
                 "/>
-                <i class="fa-solid fa-trophy"></i>
+                <!-- <i class="fa-solid fa-trophy"></i> -->
                 <div class="feature-text">
                     <h4>High Quality</h4>
                     <p>crafted from top materials</p>
